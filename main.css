@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/******* header starts ******/
+
+header{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.left-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-header div{margin: 1rem;}
+
+.burger-line{
+    display: block;
+    width: 2rem;
+    height: 0.2rem;
+    background-color: #fff;
+    border-radius: 40px;
+    margin: 0.3rem;
+}
+
+.menu-lists ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+
+.menu-lists ul li{margin: 0.5rem;}
+
+.cnn-motto{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right-header div{
+    margin: 1rem;
+}
+
+.top-headlines{
+    display: flex;
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 1rem;
+}
+
+.headline{
+    display: flex;
+}
+
+.headline-type{
+    color: red;
+}
+
+/*******  header ends ******/ 
+
+
+/****** section updates starts ******/
+
+.updates{
+    display: flex;
+
+}
+
+.left-updates{
+    margin: 1rem;
+}
+
+.left-updates-top-headline{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.img-left-updates-img{
+    max-width: 100%;
+}
+
+.left-updates .para{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.left-updates-more-headlines-topic p{color: grey;}
+
+
+.middle-updates{
+    margin: 1rem;
+}
+
+
+.middle-updates .para{
+    font-size: bolder;
+    font-size: 1rem;
+}
+
+.middle-updates-more-headlines-topic p{
+    color: grey;
+}
+
+.right-updates{
+    margin: 1rem;
+}
+
+
+.right-updates .para{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.right-updates-more-headlines-topic p{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+/****** section updates ends ******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
